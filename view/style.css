@@ -1,0 +1,292 @@
+body{
+  background-color: #FFFFFF;
+}
+
+a{
+  text-decoration: none;
+}
+/*ヘッダー要素*/
+header{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.header_main{
+ width: 960px;
+ height: 100px;
+ margin: 0 auto;
+}
+
+.header_left{
+  float: left;
+}
+
+.header_right{
+ float: right;
+}
+
+.message{
+  clear: both;
+  font-size: 14px;
+}
+
+.global_nav {
+  clear:left;
+  text-align: center;
+  background-color: #000080;
+  border-left: solid 1px #cccccc;
+  border-right: solid 1px #cccccc;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  display: flex;
+}
+
+.global_nav a{
+  flex: 1;
+  text-decoration: none;
+  font-size: 20px;
+  color: #cccccc;
+  border-right: solid 1px #cccccc;
+}
+
+/*スライドショウの要素*/
+.slideshow{
+  width: 100%;
+  height: 450px;
+}
+/*marqueeの要素*/
+.marquee_box{
+  width: 740px;
+  height: 70px;
+  background-image: url(../img/ohaka_background2.jpg);
+  margin: 0 auto;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.marquee_text{
+  flex: 1;
+  padding: 20px;
+}
+
+.marquee{
+  flex: 4;
+  padding: 22px;
+}
+
+.marquee a{
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.news{
+  padding: 20px;
+}
+/*ソートの要素*/
+.sort_box{
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  background-image: url(../img/ohaka_background.jpg);
+}
+.sort{
+  width: 960px;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 32px;
+  font-style: normal;
+  color: #DDDDDD;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.sort_item{
+  background-image: url(../img/ohaka_background2.jpg);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.sort_item_religion{
+  background-image: url(../img/ohaka_background2.jpg);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+h2{
+  font-size: 20px;
+  border-style: solid;
+  border-width: 0 0 3px 0;
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  font-style: normal;
+  padding: 5px 10px;
+}
+
+ul{
+  margin: 10px 10px;
+  list-style: none;
+  color: #000000;
+  font-size: 16px;
+}
+
+/*アイテム一覧*/
+h3{
+  border-style: solid;
+  border-width: 5px 0;
+  border-color: #000080;
+  padding: 5px 10px;
+  margin: 30px 10px;
+  font-size: 32px;
+}
+
+h4{
+  font-size: 18px;
+  border-style: solid;
+  border-width: 0 0 1px 5px;
+  border-color: #000080;
+  padding: 5px 10px;
+}
+
+h4 a{
+  text-decoration: none;
+}
+
+article{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.item{
+  background-color: #F0F8FF;
+  width: 920px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.item-box{
+  margin-top: 10px;
+}
+
+.tbhead{
+  width: 250px;
+  padding: 5px;
+  background-color: #EEEEEE;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+}
+
+.item-price{
+  width: 250px;
+  font-size: 12px;
+  color: #FF0000;
+  font-weight: bold;
+}
+
+.item-others{
+  width: 250px;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.cart-btn {
+    display:block;
+    width:160px;
+    height:25px;
+    margin-top: 30px;
+    margin-left: 170px;
+    color: #ffffff;
+    font-size: 100%;
+    background-color: #00A7F7;
+    border:none;
+}
+
+.sold-out{
+  display:block;
+  width:160px;
+  height:25px;
+  margin-top: 30px;
+  margin-left: 190px;
+  color: #DD0000;
+  font-weight: normal;
+}
+
+footer{
+  width: 100%;
+  background-image: url(../img/ohaka_background.jpg);
+  margin-top: 20px;
+
+}
+
+h5{
+  color: #FFFFFF;
+  font-weight: normal;
+}
+
+.footer_box{
+  width: 960px;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.footer_right ul{
+  color: #FFFFFF;
+  font-size: 12px;
+}
+
+.footer_right{
+  color: #FFFFFF;
+}
+
+.footer_center ul{
+  color: #DDDDDD;
+  font-size: 12px;
+}
+
+.footer_left ul{
+  color: #DDDDDD;
+  font-size: 12px;
+}
+
+.footer_logo{
+  width: 100%;
+  border-bottom: dotted 1px #DDDDDD;
+}
+
+.footer_logobox{
+  padding: 20px;
+}
+
+.footer_logobox img {
+  display: block;
+  margin: 0 auto;
+}
+
+.rights_box{
+  padding: 10px;
+  background-color: #696969;
+}
+
+.rights{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.small{
+  text-align: center;
+  font-size: 12px;
+}
